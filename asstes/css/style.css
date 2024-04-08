@@ -1051,6 +1051,10 @@ a:hover{
     width: 100%;
     background-size: 320px;
 }
+
+.specialized_ifram_area_wrapper{
+    background-color: var(--blue);
+}
 /*
 ===================================================================
              End Huston Section CSS
