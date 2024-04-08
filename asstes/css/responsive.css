@@ -429,6 +429,10 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
+       
+    }
+    .benefits_second{
+        padding-top: 0px;
     }
     .benefits_border {
         border-bottom: none;
