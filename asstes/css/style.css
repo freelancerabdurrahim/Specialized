@@ -1,0 +1,1058 @@
+/*
+===================================================================
+                          Defult CSS
+===================================================================
+*/
+:root {
+    --blue:  rgb(0, 27, 113);
+    --white: rgb(255, 255, 255);
+    --green: rgb(118, 188, 33);
+    --orange:rgb(255, 107, 0);
+    --primaryFont: "Rubik", sans-serif;
+    --secondryFont:"Give You Glory", cursive;
+    
+  }
+body{
+	margin: 0;
+	padding: 0;
+    font-family:var(--primaryFont);
+}
+
+.full_waypper{
+	overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+h1{
+    color: var(--white);
+    font-size: 50px;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+}
+h2{
+    color: var(--blue);
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+h3{
+    color: var(--blue);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+h4{
+    color: var(--blue);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+h5{
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+h6{
+  color: var(--blue); 
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+p{
+    color: var(--blue);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+.btn{
+    
+}
+.btn a{
+    background: var(--green);
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5em;
+    -webkit-transition:  .3s;
+    transition: .3s;
+}
+.btn a:hover{
+    background-color: var(--orange);
+    -webkit-transition:  .3s;
+    transition: .3s;
+    color: var(--white);
+}
+.padding_section{
+    padding: 80px 0px;
+}
+a:hover{
+    color: var(--orange);
+    -webkit-transition:  .3s;
+    transition: .3s;
+}
+
+/*
+===================================================================
+                       Start Hero Section CSS
+===================================================================
+*/
+.header_area_wrapper{
+    background-color: var(--white);
+    padding: 15px 0px;
+}
+.header_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.header_logo a img{
+    width: 200px;
+}
+.header_btn.btn a{
+    padding: 13px 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+
+.hero_section_area_wrapper{
+    background: url('../images/hero_banner.jpg') no-repeat scroll 0 0 / cover;
+    padding-bottom: 120px;
+}
+.hero_logo a img{
+    width: 85px;
+    margin-right: 30px;
+}
+.hero_right_content{
+    text-align: right;
+}
+.hero_heading{
+    padding-top: 50px;
+}
+.hero_heading h6{
+    color: #fff;
+}
+.hero_jackson_btn a{
+    padding: 12px 15px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.2em;
+    background: var(--white);
+    -webkit-transition:  .3s;
+    transition: .3s;
+    color: var(--blue);
+    box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+}
+.hero_jackson_btn a:hover{
+    background: var(--blue);
+    color: var(--white);
+}
+.hero_jackson h3{
+    color: var(--white);
+}
+.hero_jackson h5{
+    color: var(--white);
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 2.1em;
+    padding: 10px 0px;
+    font-family: var(--secondryFont);
+}
+.hero_heading h1{
+    padding: 20px 0px 30px 0px;
+}
+.heading_six {
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.heading_six h6{
+    max-width: 700px;
+    width: 100%;
+}
+/*
+===================================================================
+                       End Hero Section CSS
+===================================================================
+*/
+
+
+
+/*
+===================================================================
+            Start Job Opportuniti Section CSS
+===================================================================
+*/
+.job_opportuniti_headign_area{
+    text-align: center;
+}
+.job_opportuniti_headign_area h5{
+    padding: 15px 0px;
+}
+.job_opportuniti_headign_area{
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--blue);
+}
+.job_opportuniti_area h4{
+    padding: 35px 25px;
+    text-align: center;
+}
+.job_opportuniti_flexible_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+    margin: auto;
+}
+.job_opportuniti_under_single{
+    padding: 0px 30px;
+    margin-bottom: 50px;
+   
+}
+.job_opportuniti_single_item{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33%;
+            flex: 0 0 33%;
+}
+.job_opportuniti_under_single h6{
+    color: var(--green);
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.job_opportuniti_under_single p{
+    text-align: center;
+}
+.borderLeft_right{
+    border: 1px solid var(--blue);
+    border-top: none;
+    border-bottom: none;
+}
+.job_opportuniti_apply_btn{
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+/*
+===================================================================
+            End Job Opportuniti Section CSS
+===================================================================
+*/
+
+
+/*
+===================================================================
+            Start Hiring Now Section CSS
+===================================================================
+*/
+.hiring_now_area_wrapper{
+    background:rgba(224, 232, 255, .15);
+    position: relative;
+}
+.hiring_now_area_wrapper:after {
+    content: "";
+    position: absolute;
+    background: url('../images/hiringBG.png') no-repeat scroll 0 0 / cover;
+    top: 0;
+    right: 0;
+    left: 81%;
+    bottom: 0;
+    width: 100%;
+    background-size:350px;
+}
+.hiring_now_heading h2{
+    color: var(--orange);
+}
+.hiring_now_heading h3:last-child{
+    color:var(--orange);
+}
+.hiring_now_heading{
+    position: relative;
+}
+.hiring_now_heading:after{
+    content: "";
+    position: absolute;
+    background: var(--blue);
+    width: 70%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+}
+.hiring_now_second_heading{
+    padding-top: 15px;
+    padding-right: 100px;
+}
+.hiring_now_second_heading h5{
+    padding: 10px 0px;
+}
+.hiring_qualification_single_item .dot{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    margin-right: 10px;
+}
+.hiring_qualification_single_item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+}
+.hiring_qualification_item{
+    padding-top: 20px;
+}
+.hiring_qualification > h6{
+    font-weight: 600;
+    color: var(--orange);
+    padding: 15px 0px;
+}
+
+.hiring_apply_now{
+    padding-top: 20px;
+}
+.hiring_apply_now h6,
+.hiring_apply_now a{
+    color: var(--blue);
+}
+.hiring_apply_now a:hover{
+    color: var(--orange);
+}
+/*
+===================================================================
+            End Hiring Now Section CSS
+===================================================================
+*/
+
+
+
+/*
+===================================================================
+            Start Sign Bonus Section CSS
+===================================================================
+*/
+.sign_bonus_area{
+    text-align: center;
+}
+.sign_bonus_area_wrapper{
+    background-color: var(--blue);
+}
+.sign_bonus_area h1{
+    font-family: var(--secondryFont);
+    font-size: 40px;
+}
+.sign_bonus_area h2{
+    color: var(--orange);
+    padding-bottom: 10px;
+}
+.sign_bonus_area h3{
+    color: var(--white);
+    padding: 5px 0px;
+}
+.sign_bonus_btn{
+    margin-top: 40px;
+}
+/*
+===================================================================
+            End Sign Bonus Section CSS
+===================================================================
+*/
+
+
+
+
+/*
+===================================================================
+           Start Beach Section CSS
+===================================================================
+*/
+.beach_area h3{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.beach_area img{
+    width: 65%;
+}
+.beach_area{
+    text-align: center;
+}
+/*
+===================================================================
+            End Beach Section CSS
+===================================================================
+*/
+
+/*
+===================================================================
+          Start Making Section CSS
+===================================================================
+*/
+.making_area_wrapper{
+    position: relative;
+}
+.making_area_wrapper:after{
+    content: "";
+    position: absolute;
+    background-color: var(--blue);
+    width: 45%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.maikgin_heading_left h3{
+    color: var(--white);
+    text-align: center;
+}
+.maikgin_heading_left h3:nth-child(odd){
+    font-weight: 400;
+}
+.maikgin_heading_left h3:nth-child(even){
+    font-weight: 700;
+}
+.maikgin_heading_left h3:nth-child(2){
+   color: var(--orange);
+}
+.maikgin_heading_left{
+    position: relative;
+    padding-bottom: 20px;
+}
+.maikgin_heading_left:after{
+    content: "";
+    position: absolute;
+    background-color: var(--white);
+    width: 50%;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.making_heading_public{
+    padding-top: 20px;
+}
+.making_heading_public h4{
+    color: var(--white);
+    text-align: center;
+    font-weight: 600;
+}
+.making_btn{
+    margin-top: 50px;
+    text-align: center;
+}
+.making_left{
+    text-align: center;
+}
+.making_right_cont{
+    padding-left: 80px;
+    padding-right: 50px;
+}
+.making_right_cont h4{
+    padding-top: 25px;
+    font-weight: 600;
+}
+.making_area_wrapper2:after{
+    content: "";
+    position: absolute;
+    background-color: var(--blue);
+    width: 40%;
+    height: 100%;
+    top: 0;
+    left: auto;
+    right: 0;
+    z-index: -1;
+}
+
+
+.maikgin_heading_left2 h2,
+.making_heading_public2 h2{
+    text-align: center;
+    color: var(--white);
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+.maikgin_heading_left2 p,
+.making_heading_public2 p{
+    color: var(--white);
+    padding: 15px 0px;
+}
+.maikgin_heading_left2 p span,
+.making_heading_public2 p span{
+    font-weight: 600;
+
+}
+.making_heading_public2 {
+    padding-top: 30px;
+}
+.making_left2{
+    padding-left: 100px;
+    text-align: center;
+}
+.making_btn2{
+    margin-top: 30px;
+}
+.making_left_cont2 h2{
+    position: relative;
+    padding-bottom: 15px;
+}
+.making_left_cont2 h2:after{
+    content: "";
+    position: absolute;
+    background-color: var(--blue);
+    width: 70%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+}
+.making_left_cont2 h6{
+    padding-top: 15px;
+}
+/*
+===================================================================
+            End Making Section CSS
+===================================================================
+*/
+
+
+/*
+===================================================================
+           Start Special Education Section CSS
+===================================================================
+*/
+.special_education_area_wrapper{
+    background-color: var(--blue);
+    padding-bottom: 120px;
+}
+.special_education_area h2{
+    color: var(--white);
+    text-transform: inherit;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+.special_education_area h2:after{
+    content: "";
+    position: absolute;
+    background-color: var(--white);
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.special_education_area h2 span{
+    color: var(--orange);
+    text-transform: uppercase;
+}
+.special_education_qualification{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 150px;
+}
+.special_single_img{
+    /* width: 150px;
+    height: 180px; */
+    text-align: center;
+    margin: auto;
+}
+.special_single_img img{
+    width: 130px;
+}
+.special_single_cont h6{
+    color: var(--white);
+    text-align: center;
+    padding: 10px 50px;
+}
+.special_education_single_item{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 24%;
+            flex: 0 0 24%;
+}
+.item_spe2{
+    margin-top: 100px;
+}
+
+.special_education_qualification{
+    position: relative;
+}
+.style_line {
+    position: absolute;
+    width: 20%;
+    top: 28%;
+    left: 12%;
+}
+.style_line2 {
+    position: absolute;
+    width: 40%;
+    top: 46%;
+    right: 16%;
+}
+.item_spe3,
+.item_spe2,
+.item_spe4,
+.item_spe1{
+    position: relative;
+}
+.item_spe3:after {
+    content: "";
+    position: absolute;
+    background: url('../images/shap3.png') no-repeat scroll 0 0 / cover;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    top: 80%;
+    background-size: 85px;
+    z-index: 9;
+}
+.item_spe2:after {
+    content: "";
+    position: absolute;
+    background: url('../images/shap2.png') no-repeat scroll 0 0 / cover;
+    bottom: 0;
+    left: 32%;
+    width: 100%;
+    right: 0px;
+    top: -50%;
+    background-size: 85px;
+}
+.item_spe4:after {
+    content: "";
+    position: absolute;
+    background: url('../images/shap4.png') no-repeat scroll 0 0 / cover;
+    bottom: 0;
+    left: 40%;
+    width: 100%;
+    right: 0;
+    top: 90%;
+    background-size: 85px;
+}
+.item_spe1:after {
+    content: "";
+    position: absolute;
+    background: url('../images/shap1.png') no-repeat scroll 0 0 / cover;
+    bottom: 0;
+    left: 55%;
+    width: 100%;
+    right: 0px;
+    top: -45%;
+    background-size: 85px;
+}
+.special_education_single_item  img{
+    width:130px;
+}
+/*
+===================================================================
+           End Special Education Section CSS
+===================================================================
+*/
+
+
+
+/*
+===================================================================
+           Start Benefits Section CSS
+===================================================================
+*/
+.benefits_area h2{
+    text-transform: inherit;
+    text-align: center;
+}
+.benefits_area h2 span{
+    color: var(--green);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.benefits_item_wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 40px 50px;
+}
+.benefits_single_item{
+    text-align: center;
+}
+.benefits_single_item img{
+    width: 100px;
+}
+.benefits_single_item h3{
+    font-weight: 400;
+}
+.benefits_single_item{
+    padding: 0px 0px;
+}
+.benefits_border{
+    border-bottom: 1px solid var(--blue);
+}
+/*
+===================================================================
+            End Benefits Section CSS
+===================================================================
+*/
+
+
+/*
+===================================================================
+            Start Join Our Team Section CSS
+===================================================================
+*/
+.join_team_content h1{
+    color: var(--blue);
+    text-transform: inherit;
+}
+.join_team_content h1 span{
+    background: url('../images/team.png') no-repeat scroll 0 0 / cover;
+}
+.join_team_content p{
+    line-height: 1.7em;
+    max-width: 420px;
+    width: 100%;
+    padding: 15px 0px;
+}
+.join_team_inded {
+    text-align: center;
+    margin-top: 20px;
+}
+.join_outTeam_area_wrapper{
+    padding-top: 30px;
+}
+.join_form_area iframe{
+    width: 100%;
+    height: 600px;
+}
+.join_team_content{
+    text-align: center;
+}
+.join_team_content p{
+    margin: auto;
+}
+.join_btn{
+    margin-top: 50px;
+}
+/*
+===================================================================
+             End Join Our Team Section CSS
+===================================================================
+*/
+
+
+/*
+===================================================================
+             Start Footer Section CSS
+===================================================================
+*/
+.footer_area_wrapper{
+    background: var(--blue);
+    padding-bottom: 30px;
+}
+.footer_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.footer_single_item h6{
+    color: var(--white);
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.footer_social_icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer_social_icon a{
+    margin-right: 20px;
+}
+.sameIcon a,
+.sameIcon__ a:first-child{
+    width: 35px;
+    height: 35px;
+    background: var(--green);
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+    -webkit-transition:  .3s;
+
+    transition: .3s;
+}
+.fixWidth a{
+    width: 35px;
+    height: 35px;
+    background: var(--green);
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+    -webkit-transition:  .3s;
+
+    transition: .3s;
+}
+.footer_social_icon a:hover{
+    background: var(--orange);
+    -webkit-transition:  .3s;
+    transition: .3s;
+}
+.footer_social_icon a i,
+.sameIcon__ a:first-child{
+    color: var(--white);
+    font-size: 18px;
+}
+.footer_single_item p{
+    color: var(--white);
+    max-width: 320px;
+    width: 100%;
+    line-height: 1.7em;
+    margin-top: 30px;
+}
+.footer_location_single{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer_location_single a:last-child{
+    font-size: 16px;
+    color: var(--white);
+    /* margin-left: 15px; */
+}
+.footer_location_single .fixWidth{
+    margin-right: 15px;
+}
+.footer_location_single{
+    margin-bottom: 15px;
+}
+.footer_single_item a img{
+    width: 85px;
+}
+.footer_single_item a:last-child img{
+    width: 180px;
+    filter:  url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" /><feFuncG type="linear" slope="1" /><feFuncB type="linear" slope="1" /></feComponentTransfer><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="1 0" /><feFuncG type="table" tableValues="1 0" /><feFuncB type="table" tableValues="1 0" /></feComponentTransfer></filter></svg>#filter');
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+    margin-left: 30px;
+}
+.footer_bottom p{
+    color: var(--white);
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 630px;
+    width: 100%;
+    margin: auto;
+    line-height: 1.7;
+}
+.footer_bottom p a{
+    font-weight: 600;
+    color: var(--white);
+}
+/*
+===================================================================
+              End Footer Section CSS
+===================================================================
+*/
+
+
+
+
+/*
+===================================================================
+             Start Huston Section CSS
+===================================================================
+*/
+.huston_serve_tag h4{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.huston_serve_tag h4:last-child{
+    font-weight: 500;
+    font-style: italic;
+}
+.huston_serve_greater_heading h2{
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 8px;
+}
+.huston_serve_greater_heading h2:after{
+    content: "";
+    position: absolute;
+    background-color: var(--blue);
+    width: 95%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+}
+.huston_serve_tag_right{
+    /* padding-left: 100px; */
+}
+.huston_positon_hire{
+    padding-top: 20px;
+}
+.huston_positon_hire h3{
+    font-size: 24px;
+}
+.huston_positon_hire .hiring_qualification_item{
+    margin-left: 100px;
+}
+.huston_server_section:after{
+    width: 41%;
+}
+.hoston_Proud_home h4{
+    color: var(--white);
+    text-align: left;
+}
+.hoston_Proud_home_section:after{
+    width: 44%;
+}
+.hoston_Proud_home{
+    padding-left: 30px;
+}
+.huston_proud_home_btn{
+    margin-top: 100px;
+}
+.huston_proud_home_btn h5{
+    color: var(--white);
+    padding-bottom: 25px;
+}
+.hoston_proud_btn{
+    text-align: left;
+}
+.hoston_proud_btn.btn a{
+    background: var(--orange);
+}
+.hoston_proud_btn.btn a:hover{
+    background: var(--green);
+}
+.hoston_proud_home_left h4{
+    max-width: 350px;
+    width: 100%;
+    font-size: 32px;
+}
+.hoston_proud_home_left h4 span{
+    color: var(--orange);
+    font-weight: 700;
+}
+.hoston_proud_home_img img{
+    width: 90%;
+}
+.houston_love_area h3 span{
+    color: var(--orange);
+    font-size: 40px;
+    font-weight: 700;
+}
+.hiring_qualification_single_item .icon_dot i{
+    font-size: 8px;
+    color: var(--blue);
+    margin-right: 10px;
+}
+.hoston_love_tag_area{
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.hoston_love_about_tag:first-child{
+    margin-right: 50px;
+}
+.hoston_love_language:after{
+    left: 0;
+    width: 42%;
+}
+.hoston_love_language .making_left2{
+    padding-right: 50px;
+}
+.hoston_love_language .making_left_cont2{
+    padding-left: 50px;
+}
+.huston_server_section{
+    position: relative;
+}
+.huston_server_section:before{
+    content: "";
+    position: absolute;
+    background: url('../images/houston_greater.png')no-repeat scroll 0 0 / cover;
+    top: -5%;
+    right: 0;
+    left: 81%;
+    bottom: 0;
+    width: 100%;
+    background-size: 320px;
+}
+/*
+===================================================================
+             End Huston Section CSS
+===================================================================
+*/

@@ -1,0 +1,640 @@
+@media all and (max-width:1799px){
+    .hiring_now_area_wrapper:after {
+        left: 70%;
+        width: 100%;
+        background-size: 250px;
+        z-index: -1;
+    }
+    .huston_server_section:before {
+        top: -10%;
+        left: 80%;
+        background-size: 230px;
+    }
+}
+@media all and (max-width:1399px){
+    .footer_single_item a img {
+        width: 60px;
+    }
+    .footer_single_item a:last-child img {
+        width: 140px;
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width:1199px){
+    h1 {
+        font-size: 45px;
+    }
+    .hero_logo a img {
+        width: 65px;
+        margin-right: 10px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .btn a {
+        padding: 12px 20px 12px 30px;
+        font-size: 20px;
+    }
+    .benefits_single_item img {
+        width: 80px;
+    }
+    .benefits_single_item h3 {
+        padding-top: 10px;
+    }
+    .footer_single_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+    }
+    .footer_area {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .footer_single_item.last_footer_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .padding_res {
+       padding: 10px 0px;
+       line-height: 1.5em;
+    }
+    .huston_positon_hire .hiring_qualification_item {
+        margin-left: 50px;
+    }
+}
+
+
+@media all and (max-width:991px){
+    .header_logo a img {
+        width: 150px;
+    }
+    .header_btn.btn a {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .hero_jackson h5 {
+        font-size: 30px;
+    }
+    .hero_jackson_btn a {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 18px;
+    }
+    .job_opportuniti_flexible_area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .borderLeft_right {
+        border: none;
+    }
+    .job_opportuniti_apply_btn {
+        padding-top: 0px;
+    }
+    .sign_bonus_area h1 {
+        font-size: 30px;
+    }
+    .making_area_wrapper:after {
+        width: 100%;
+        height: 470px;
+    }
+    .making_right_cont {
+        padding: 90px 0px 0px 0px;
+    }
+    .row.second_rowMaking {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .second_rowMaking .making_left_cont2 {
+        padding: 80px 0px 0px 0px;
+    }
+    .making_left2 {
+        padding-left: 0;
+    }
+    .benefits_item_wrapper {
+        padding: 40px 0px;
+    }
+    .join_team_inded {
+        padding-right: 0px;
+    }
+    .padding_section{
+        padding: 60px 20px;
+    }
+    .hiring_now_area_wrapper:after {
+        left: 70%;
+        width: 100%;
+        background-size: 250px;
+        z-index: -1;
+        left: 5%;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        top: 20%;
+    }
+    .special_education_single_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+    }
+    .special_education_qualification {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .style_line {
+        display: none;
+    }
+    .style_line2 {
+        display: none;
+    }
+    .special_education_single_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+        margin-bottom: 30px;
+    }
+    .item_spe4:after {
+        left: 0%;
+        top: 62%;
+        background-size: 85px;
+    }
+    .item_spe1:after {
+        left: 25%;
+        top: -20%;
+    }
+    .making_one .making_right_cont{
+        padding-top: 125px;
+    }
+    .footer_bottom p {
+        padding-top: 50px;
+    }
+    .heading_six h6{
+        font-size: 22px;
+    }
+    .huston_serve_tag_right {
+        padding-top: 70px;
+    }
+    .huston_server_section:before {
+        top: 70%;
+        left: 80%;
+        background-size: 150px;
+        bottom: 0;
+    }
+    .hoston_Proud_home_section:after {
+        height: 360px;
+    }
+    .huston_proud_home_btn {
+        margin-top: 65px;
+    }
+    .hoston_proud_home_left {
+        padding-top: 90px;
+    }
+    .hoston_proud_home_left h4 {
+        max-width: 100%;
+        width: 100%;
+    }
+    .hoston_proud_home_img {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .row.houston_row{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .houston_row .making_left2{
+        padding-right: 0px;
+    }
+    .huston_serve_tag h4 {
+        text-align: center;
+    }
+   
+    
+}
+
+
+@media all and (max-width:767px){
+    .hero_logo {
+        text-align: center;
+    }
+    .hero_right_content {
+        text-align: center;
+        margin-top: 50px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    .hero_jackson h5 {
+        font-size: 25px;
+    }
+    .job_opportuniti_area h4 {
+        padding: 25px 0px;
+    }
+    .hiring_now_second_heading {
+        padding-right: 0;
+    }
+    .sign_bonus_area h1 {
+        font-size: 25px;
+    }
+    .beach_area img {
+        width: 100%;
+    }
+   
+    .benefits_single_item h3{
+        font-size: 16px;
+    }
+    .benefits_single_item img {
+        width: 60px;
+    }
+    .join_team_inded a img{
+        width: 120px;
+    }
+    .footer_single_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+    }
+    .padding_section{
+        padding: 40px 20px;
+    }
+    .making_left {
+        text-align: center;
+        padding: 40px 0px;
+    }
+    .making_area_wrapper:after {
+        height: 410px;
+    }
+    .making_right_cont {
+        padding: 55px 0px 20px 0px;
+    }
+    .making_left2 {
+        padding-left: 0;
+        padding: 40px 0px;
+    }
+    .making_area_wrapper:after {
+        height: 460px;
+    }
+    .making_area_wrapper2:after{
+        height: 480px;
+    }
+  
+    .second_rowMaking .making_left_cont2 {
+        padding: 50px 0px 30px 0px;
+    }
+    .special_education_single_item img {
+        width: 90px;
+    }
+    .making_one .making_right_cont {
+        padding-top: 50px;
+    }
+    .heading_six h6{
+        text-align: center;
+    }
+    .huston_server_section .making_left{
+        padding: 0px;
+    }
+    .huston_serve_tag h4 {
+        text-align: center;
+    }
+    .huston_serve_greater_heading h2 {
+        text-align: center;
+    }
+    .huston_serve_greater_heading h2:after {
+        right: 0;
+        margin: auto;
+    }
+    .huston_positon_hire h3 {
+        text-align: center;
+    }
+    .huston_positon_hire .hiring_qualification_item {
+        margin-left: 0px;
+    }
+ 
+    .hoston_Proud_home_section:after {
+        height: 360px;
+    }
+    
+}
+
+
+@media all and (max-width:575px){
+    .header_btn.btn a {
+        padding: 10px 14px;
+    }
+    .header_logo a img {
+        width: 140px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.7em;
+    }
+    .job_opportuniti_under_single {
+        margin-bottom: 30px;
+    }
+    .hiring_now_heading {
+        text-align: center;
+    }
+    .hiring_now_heading h4{
+        padding-bottom: 10px;
+    }
+    .hiring_now_heading:after {
+        left: 0;
+        margin: auto;
+        text-align: center;
+        right: 0;
+    }
+    .hiring_now_second_heading {
+        text-align: center;
+    }
+    .hiring_qualification {
+        text-align: center;
+    }
+    .hiring_qualification_single_item .dot {
+        display: none;
+    }
+    .making_right_cont {
+        text-align: center;
+    }
+    .hiring_qualification_single_item {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .second_rowMaking .making_left_cont2 {
+        padding: 100px 0px 0px 0px;
+        text-align: center;
+    }
+    .making_left_cont2 h2:after {
+        width: 50%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .benefits_item_wrapper {
+        padding: 40px 0px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .benefits_border {
+        border-bottom: none;
+        padding-bottom: 0px;
+    } 
+    .benefits_single_item {
+        margin-bottom: 35px;
+    }
+    .benefits_single_item h3 {
+        font-size: 20px;
+    }
+    .benefits_single_item img {
+        width: 65px;
+    }
+    .join_team_content {
+        text-align: center;
+    }
+    .join_team_content p {
+        max-width: 100%;
+        padding: 15px 20px;
+    }
+    .join_team_inded {
+        text-align: center;
+    }
+    .sameIcon a, .sameIcon__ a:first-child {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 12%;
+                flex: 0 0 12%;
+    }
+    .footer_single_item h6{
+        font-size: 22px;
+    }
+    .footer_single_item {
+        margin-bottom: 35px;
+    }
+    .footer_single_item.last_footer_item {
+        text-align: left;
+        margin-top: 0px;
+    }
+    .footer_bottom p {
+        padding-top: 0px;
+    }
+    .padding_section{
+        padding: 40px 15px;
+    }
+    .join_outTeam_area_wrapper.padding_section {
+        padding-top: 0px;
+    }
+    .job_opportuniti_flexible_area {
+        padding-top: 25px;
+    }
+    .job_opportuniti_under_single h6 {
+        font-size: 18px;
+    }
+    .benefits_area_wrapper {
+        padding-bottom: 0px;
+    }
+    .hero_heading h6{
+        font-size: 20px;
+    }
+    .huston_server_section:after{
+        height: 430px;
+    }
+    .huston_positon_hire .hiring_qualification_single_item h6{
+        text-align: center;
+    }
+    .huston_server_section:before {
+        top: 70%;
+        background-size: 150px;
+        bottom: 0;
+        left: 20%;
+        right: 0;
+        z-index: -1;
+    }
+    .hoston_Proud_home h4 {
+        text-align: center;
+    }
+    .huston_proud_home_btn {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .hoston_Proud_home_section:after {
+        height: 340px;
+    }
+    .hoston_proud_home_left h4 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .hoston_Proud_home {
+        padding-left: 0px;
+    }
+    .houston_love_area h3 {
+        text-align: center;
+        line-height: 2em;
+    }
+    .hoston_love_tag_area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .hoston_love_about_tag h6{
+        text-align: center;
+    }
+    .hoston_love_about_tag .hiring_qualification_single_item {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .hoston_love_about_tag .hiring_qualification_single_item {
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
+    }
+    .hoston_love_about_tag .hiring_qualification_single_item h6 {
+        text-align: left;
+    }
+    .houston_row .making_left_cont2{
+        padding-top: 50px;
+       }
+    .hoston_love_about_wrapper {
+        padding-top: 0px;
+    }
+}
+
+
+@media all and (max-width:450px){
+    h3 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 1.7em;
+    }
+    h6 {
+        font-size: 16px;
+        line-height: 1.6em;
+    }
+    .benefits_single_item h3 {
+        font-size: 18px;
+    }
+    .making_left2 {
+        padding: 0px 0px;
+    }
+    .making_area_wrapper2:after {
+        height: 410px;
+    }
+    .second_rowMaking .making_left_cont2 {
+        padding: 80px 0px 0px 0px;
+    }
+    .making_left {
+        padding: 0px 0px;
+    }
+    .making_right_cont {
+        padding: 85px 0px 20px 0px;
+    }
+    .making_area_wrapper:after {
+        height: 400px;
+    }
+    .special_education_single_item img {
+        width: 60px;
+    }
+    .special_education_qualification {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .special_single_cont h6 {
+        font-size: 16px;
+    }
+    .special_single_cont h6 {
+        color: var(--white);
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .special_education_qualification {
+        padding-top: 100px;
+    }
+    .hoston_Proud_home_section:after {
+        height: 320px;
+    }
+    .huston_proud_home_btn {
+        margin-top: 25px;
+    }
+    .huston_proud_home_btn h5 {
+        padding-bottom: 15px;
+    }
+    .hoston_proud_home_img img {
+        width: 315px;
+    }
+    .hoston_love_language:after {
+        height: 420px;
+    }
+    .houston_row .making_left_cont2{
+        padding-top: 60px;
+       }
+}
+@media all and (max-width:384px){
+    .hoston_Proud_home_section:after {
+        height: 385px;
+    }
+    .hoston_proud_home_img img {
+        width: 280px;
+    }
+    .hoston_proud_home_left {
+        padding-top: 120px;
+    }
+}
